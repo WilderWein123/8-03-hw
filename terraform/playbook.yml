@@ -1,0 +1,7 @@
+- hosts: all
+  tasks:
+    - service:
+        name: nginx
+        state: started
+      become: yes
+      become_method: sudo

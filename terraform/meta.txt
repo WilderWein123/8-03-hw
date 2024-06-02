@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: seregin
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/I41NVxm9GUd30S6qr0A4X8kyvx5o1T7CCIN5oIGYao5ve/xIi38m68UTqsLv5HhqPft9K8Ws9BZZmZnV6jQzo5ViB3doZbuOU1JVPjg+aQODvMaFnStYPuNNqWy5qRjfsAdfvsc1wMitklyxNDRZiEDdVCSZ6e5/Zol/pFehTTpWzKFrrQou5iC9y9R/1+ojqpWH19jrl+/F4ixwqsO7aG+1lH8DukFaaKa+QrKo1gAGxH6Fe+f0YXfy7rKhaK9mQhrPDu1dauNnQrFP3UqDU/XPBu8F2xVO4vYYscYrW58Ox7vaLynudgu1SmbLyQA3LNSxlojSzyEtu/RsbN5vMLP7/ZzA5zAN1YTQi4SsSQICIzkJQJIZEUU3UCFaHtcFk8BsFeBe2g9/LnC+WpuZ70N+8xOLNV7CQXNJba9/yrIZbfm1AA2dZjPfGdewHfD+6n0PVbS1chKcErGjCUWhFsPY9A4D4B9azxkSvUAXARJKzWN9ZalyFtJln06rVYE= seregin@msk-s3-arm076
