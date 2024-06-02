@@ -64,9 +64,11 @@ https://github.com/WilderWein123/8-03-hw/tree/main/terraform
 
 *2. Скриншот статуса балансировщика и целевой группы.*
 
-[scr1]https://github.com/WilderWein123/8-03-hw/blob/main/img/1-balancer.jpg
+![scr1](https://github.com/WilderWein123/8-03-hw/blob/main/img/1-balancer.jpg)
 
 *3. Скриншот страницы, которая открылась при запросе IP-адреса балансировщика.*
+
+![scr2](https://github.com/WilderWein123/8-03-hw/blob/main/img/1-result.jpg)
 
 ---
 
